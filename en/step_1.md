@@ -10,12 +10,13 @@ You will create your own 3D crafted model, and add LEDs and maybe some sound, to
 
 ![animation of four potential projects, showing a constellation, a thunder cloud, an angler fish and a disco](images/showcase.gif)
 
+Anglerfish by Jess Smith, in the [Sea Creatures Collection](https://thenounproject.com/spess.22/collection/sea-creatures)
 --- /no-print ---
 
 --- print-only ---
 
 ![four potential projects, showing a constellation, a thunder cloud, an angler fish and a disco](images/showcase.png)
-
+Anglerfish by Jess Smith, in the [Sea Creatures Collection](https://thenounproject.com/spess.22/collection/sea-creatures)
 --- /print-only ---
 
 --- collapse ---
