@@ -1,16 +1,19 @@
-## Step title
+## Get inspiration
 
-Add an introductory sentence. What will learners achieve by the end of this step?
+You are going to create a 3D art installation using some craft materials, some LEDs and Scratch.
+
+You can get ideas for your own project by investigating projects created by others.
 
 --- task ---
 
-If working **online**, open the [starter project](http://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
- 
-If working **offline**, open the project [starter file](http://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+Have a look at the video of the following four projects, so you can see the types of creation you can make.
 
-You should see...
- 
-![starter project](images/starter_project.png)
+There is a blinking constellation of stars, a thunder cloud, an interactive Angler fish and a light and sound disco scene.
+
+ <video width="600" controls>
+  <source src="images/showcase.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
 
 --- /task ---
 
@@ -21,3 +24,8 @@ Step content...
 --- /task ---
 
 --- save ---
+
+
+anglerfish 
+By Jess Smith, US 
+In the [Sea Creatures Collection](https://thenounproject.com/spess.22/collection/sea-creatures)

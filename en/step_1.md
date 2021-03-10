@@ -1,19 +1,21 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+In this project you will combine your knowledge of using LEDs with your creative talents, to produce an artistic light show.
 
 ### What you will make
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+You will create your own 3D crafted model, and add LEDs and maybe some sound, to craft your very own digital art installation.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+--- no-print ---
+
+![animation of four potential projects, showing a constellation, a thunder cloud, an angler fish and a disco](images/showcase.gif)
+
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+
+![four potential projects, showing a constellation, a thunder cloud, an angler fish and a disco](images/showcase.png)
+
 --- /print-only ---
 
 --- collapse ---
@@ -22,17 +24,16 @@ title: What you will need
 ---
 ### Hardware
 
-+ A computer or tablet capable of running Scratch 3
++ A Raspberry Pi computer
++ Jumper leads
++ LEDs
++ Crafting materials
 
 ### Software
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ Scratch 3 Desktop
 + Python 3
 + This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
 
 --- /collapse ---
 
@@ -41,9 +42,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
++ How to use connect multiple LEDs to a Raspberry Pi
++ How to use multiple pins to control LEDs using Scratch
++ How to control LEDs using random patterns or inputs.
 
 --- /collapse ---
 
@@ -51,8 +52,6 @@ title: What you will learn
 ---
 title: Additional information for educators
 ---
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
 
