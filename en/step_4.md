@@ -40,3 +40,21 @@ As the legs of the LEDs are often exposed, it is easy for them to touch each oth
 This will also help to keep the LED attached to it's jumper leads.
 
 --- /collapse ---
+
+--- collapse ---
+---
+title: Multiple LEDs
+---
+
+Up until now, you might have only used a single LED in your projects. There's no reason that you can't use many more LEDs though. Each LED will need to use a numbered pin attached to the long leg and a Ground pin attached to the short leg. You can see the location of all the numbered pins and ground pins on the diagram below.
+
+![raspberry pi pinout](https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png)
+
+To control the LEDs, you just use the pin number in your Scratch program
+
+```blocks3
+turn LED (21 v) [on v] ::extension
+turn LED (26 v) [off v] ::extension
+```
+
+--- /collapse ---
