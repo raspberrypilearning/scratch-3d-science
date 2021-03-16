@@ -31,7 +31,7 @@ By using the `pick random`{:class='block3operators'} block, the blinking of and 
 when flag clicked
 forever
 toggle LED (21 v) ::extension
-wait <pick random (0.1) to (0.5)> seconds
+wait (pick random (0.1) to (0.5)) seconds
 ```
 
 --- /collapse ---
