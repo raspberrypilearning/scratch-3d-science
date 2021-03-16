@@ -39,12 +39,14 @@ Once you have built your model, how will the LED or LEDs be controlled. Will you
 when flag clicked
 forever
 toggle LED (21 v) ::extension
+```
+
 --- /task ---
 
 --- task ---
 
 Will your model need to show graphics on the screen? Will you want to add sound effects to your model? Will there be a need for people using your model to be able to interact with the screen?
 
-![the scratch stage with clouds, trees and ground shown](images/cloudy-sky.png)
+![the scratch stage with clouds, trees and ground shown](images/cloudy_sky.png)
 
 --- /task ---
