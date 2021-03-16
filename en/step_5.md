@@ -14,7 +14,7 @@ The following blocks will create a regular blinking pattern on an LED. By changi
 ```blocks3
 when flag clicked
 forever
-toggle LED (21 v) :extension
+toggle LED (21 v) ::extension
 wait (1) seconds
 ```
 
@@ -32,6 +32,7 @@ when flag clicked
 forever
 toggle LED (21 v) ::extension
 wait <pick random (0.1) to (0.5)> seconds
+```
 
 --- /collapse ---
 
