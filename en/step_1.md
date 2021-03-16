@@ -1,22 +1,24 @@
 ## Introduction
 
-In this project you will combine your knowledge of using LEDs with your creative talents, to produce an artistic light show.
+In this project you will combine your knowledge of using LEDs with your creative talents, to produce a scientific or natural 3D installation.
 
 ### What you will make
 
-You will create your own 3D crafted model, and add LEDs and maybe some sound, to craft your very own digital art installation.
+You will create your own 3D crafted model, and add LEDs and maybe some sound, to craft your very digital demonstration.
 
 --- no-print ---
 
-![animation of four potential projects, showing a constellation, a thunder cloud, an angler fish and a disco](images/showcase.gif)
+![animation of four potential projects, showing a constellation, a thunder cloud, an angler fish and a disco](images/pc_showcase.gif)
 
 Anglerfish by Jess Smith, in the [Sea Creatures Collection](https://thenounproject.com/spess.22/collection/sea-creatures)
+
 --- /no-print ---
 
 --- print-only ---
 
 ![four potential projects, showing a constellation, a thunder cloud, an angler fish and a disco](images/showcase.png)
 Anglerfish by Jess Smith, in the [Sea Creatures Collection](https://thenounproject.com/spess.22/collection/sea-creatures)
+
 --- /print-only ---
 
 --- collapse ---
