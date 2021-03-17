@@ -1,7 +1,6 @@
-title: led-sculpture
+title: 3D LED science display with Scratch
 hero_image: images/banner.png
-description: led-sculpture description
-version: 4
+description: Make a 3D LED science display with Scratch on the Raspberry Pi
 listed: false
 copyedit: false
 last_tested: "2021-03-03"
