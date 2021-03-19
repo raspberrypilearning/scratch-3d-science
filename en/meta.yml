@@ -13,7 +13,6 @@ steps:
   - title: Add graphics and sound
   - title: Share your project
   - title: Reflect
-  - title: Reflection
     knowledge_quiz:
       path: quiz1
       version: 1
