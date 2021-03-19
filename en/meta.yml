@@ -13,4 +13,10 @@ steps:
   - title: Add graphics and sound
   - title: Share your project
   - title: Reflect
+  - title: Reflection
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
   - title: What next?
