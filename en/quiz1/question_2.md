@@ -63,7 +63,7 @@ No, this script will only toggle the LED once, rather than in a a pattern
 ```blocks3
 when flag clicked
 forever
-toggle LED ((pick random (1) to (10))::extension
+toggle LED (pick random (1) to (10)) ::extension
 wait (1) seconds
 ```
 
