@@ -37,7 +37,7 @@ As the legs of the LEDs are often exposed, it is easy for them to touch each oth
 
 ![An LED attached to jumper wires with tape insulating each LED leg.](images/insulated-led.jpg)
 
-This will also help to keep the LED attached to it's jumper wires.
+This will also help to keep the LED attached to its jumper wires.
 
 --- /collapse ---
 
@@ -46,7 +46,7 @@ This will also help to keep the LED attached to it's jumper wires.
 title: Multiple LEDs
 ---
 
-You might have only used a single LED in your projects until now. There's no reason that you can't use many more LEDs though. Each LED will need it's long leg attached to a numbered pin and the short leg attached to a ground pin. You can see the location of all the numbered pins and ground pins on the diagram below.
+You might have only used a single LED in your projects until now. There's no reason that you can't use many more LEDs though. Each LED will need its long leg attached to a numbered pin and the short leg attached to a ground pin. You can see the location of all the numbered pins and ground pins on the diagram below.
 
 ![Raspberry Pi pinout.](https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png)
 
