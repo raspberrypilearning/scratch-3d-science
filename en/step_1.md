@@ -45,7 +45,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to use connect multiple LEDs to a Raspberry Pi
++ How to connect multiple LEDs to a Raspberry Pi
 + How to use multiple pins to control LEDs using Scratch
 + How to control LEDs using random patterns or inputs
 
