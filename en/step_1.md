@@ -4,7 +4,7 @@ In this project, you will combine your knowledge of using LEDs with your creativ
 
 ### What you will make
 
-You will create your own 3D crafted model, and add LEDs and maybe some sound, to craft your very digital demonstration.
+You will create your own 3D crafted model, and add LEDs and maybe some sound, to craft your very own digital demonstration.
 
 --- no-print ---
 
