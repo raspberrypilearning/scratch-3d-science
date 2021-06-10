@@ -1,6 +1,6 @@
 ## Control your LEDs
 
-Hopefully, you've now built your model, with your LEDs all wired up to your Raspberry Pi. Make sure you remember which numbered pins you used, because now it is time to add some code to control your LEDs.
+You should now have your model built and your LEDs wired up to your Raspberry Pi. Make sure you remember which numbered pins you used, because now it is time to add some code to control your LEDs.
 
 Have a look at the options below for some different ideas on how the LEDs can be turned on and off.
 
