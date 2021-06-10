@@ -1,10 +1,10 @@
 ## Choose your model
 
-Now it’s time to work on your own project. You may be bursting with ideas already, or you may need to take a few minutes to decide on a theme you want to work with.
+Now it’s time to work on your own project. You may have lots of ideas already, or you may need to take a few minutes to decide on a theme.
 
 --- task ---
 
-Think about the model you would like to make. You could copy one of the examples in the video in the previous step, adapt one of them to make something different, or even come up with something completely original.
+Think about the model you would like to make. You could copy or adapt one of the examples in the video in the previous step, or you could come up with something completely different.
 
 For example:
 1. You could use cotton wool and a pair of blue LEDs to make your own 3D thunder cloud
@@ -45,7 +45,7 @@ toggle LED (21 v) ::extension
 
 --- task ---
 
-Will your model need to show graphics on the screen? Will you want to add sound effects to your model? Do you want people using your model to be able to interact with the screen?
+Do you want to add sound effects to your model? Will there be graphics on the screen in addition to your model? Do you want people to be able to interact with the screen?
 
 ![The Scratch Stage with clouds, trees, and ground shown.](images/cloudy_sky.png)
 
