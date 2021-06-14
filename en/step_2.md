@@ -10,8 +10,8 @@ Have a look at the video of the following four projects, so you can see the type
 
 There is a blinking constellation of stars, a thunder cloud, an interactive anglerfish, and an illuminated globe.
 
- <video width="600" controls>
-  <source src="images/pc_showcase.mp4" type="video/mp4">
+<video width="600" controls>
+<source src="images/pc_showcase.mp4" type="video/mp4">
 Your browser does not support mp4 video.
 </video> 
 

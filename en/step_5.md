@@ -79,12 +79,10 @@ The `sensing`{:class='block3sensing'} menu has blocks that can detect events tha
 ```blocks3
 when flag clicked
 forever
-if <touching (mouse-pointer v)?> then
+if <touching (mouse-pointer v) ?> then
 turn LED (21 v) [on v] ::extension
 else
 turn LED (21 v) [off v] ::extension
 ```
-
-
 
 --- /collapse ---
