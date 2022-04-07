@@ -15,10 +15,11 @@ steps:
   - title: Share your project
     completion: internal  
   - title: Reflect
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3    
   - title: What next?
-    completion: external  
+  
