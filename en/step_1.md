@@ -35,8 +35,6 @@ title: What you will need
 ### Software
 
 + Scratch 3 Desktop
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
 
 --- /collapse ---
 
