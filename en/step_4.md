@@ -18,13 +18,13 @@ Craft and utility knives are very useful when making models, but you must be ver
 title: Joining together jumper wires
 ---
 
-You might need extra-long wires to attach your LED to your Raspberry Pi pins. You can do this by 'daisy chaining' wires together. For instance, to make an extra-long F-F wire, you can attach an M-F wire to an F-F wire.
+You might need extra-long wires to attach your LED to your Raspberry Pi pins. You can do this by 'daisy chaining' wires together. For instance, to make an extra-long Socket-Socket wire, you can attach an Socket-Pin wire to a Socket-Socket wire.
 
-![An M-F wire attached to an F-F wire.](images/daisy-chain.jpg)
+![An Socket-Pin wire attached to a Socket-Socket wire.](images/daisy-chain.jpg)
 
 The problem with this method is that often the wires will become detached from each other. You can use a small piece of tape to secure the connection.
 
-![An M-F wire taped to an F-F wire.](images/tape-daisy-chain.jpg)
+![An Socket-Pin wire taped to a Socket-Socket wire.](images/tape-daisy-chain.jpg)
 
 --- /collapse ---
 
