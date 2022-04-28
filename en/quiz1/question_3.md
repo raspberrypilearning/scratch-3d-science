@@ -26,7 +26,7 @@ No. This circuit only uses one programmable pin, so the LEDs could not be contro
 --- /feedback ---
 
 - ( ) 3: 
-![circuit showing two LEDs sharing a single programmable pin, each through its own resistor. The short legs are connected to seperate ground pins](images/t-led-4.png)
+![circuit showing two LEDs sharing a single programmable pin, each through its own resistor. The short legs are connected to separate ground pins](images/t-led-4.png)
 --- feedback ---
 
 No. This circuit only uses one programmable pin, so the LEDs could not be controlled independently
