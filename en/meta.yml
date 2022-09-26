@@ -4,26 +4,26 @@ hero_image: images/banner.png
 description: Make a 3D LED science display with Scratch on the Raspberry Pi
 listed: true
 copyedit: true
-last_tested: '2021-03-03'
+last_tested: "2021-03-03"
 steps:
-- title: Introduction
-- title: Get inspiration
-- title: Choose you model
-  completion:
-  - engaged
-- title: Build your model
-- title: Control your LEDs
-- title: Add graphics and sound
-  completion:
-  - internal
-- title: Share your project
-- title: Reflect
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
-  completion:
-  - external
-- title: Upgrade your project
-- title: What next?
+  - title: You will make
+  - title: Get inspiration
+  - title: Choose you model
+    completion:
+      - engaged
+  - title: Build your model
+  - title: Control your LEDs
+  - title: Add graphics and sound
+    completion:
+      - internal
+  - title: Share your project
+  - title: Quick quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Upgrade your project
+  - title: What next?

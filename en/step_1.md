@@ -1,12 +1,11 @@
-## Introduction
+## You will make
 
-In this project, you will combine your knowledge of using LEDs with your creative talents, to produce a scientific or natural 3D installation. You will create your own 3D crafted model, and add LEDs and maybe some sound, to craft your very own digital demonstration.
+Produce a scientific or natural 3D installation. You will create your own 3D crafted model, and add LEDs and maybe some sound, to craft your very own digital demonstration.
 
 You will:
 + Connect multiple LEDs to a Raspberry Pi
 + Use multiple pins to control LEDs using Scratch
 + Control LEDs using random patterns or inputs
-
 
 In order to complete this project you will need:
 ### Hardware
