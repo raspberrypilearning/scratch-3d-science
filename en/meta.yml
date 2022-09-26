@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Make a 3D LED science display with Scratch on the Raspberry Pi
 listed: true
 copyedit: true
-last_tested: "2021-03-03"
+last_tested: '2021-03-03'
 steps:
   - title: You will make
   - title: Get inspiration
