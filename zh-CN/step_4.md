@@ -1,52 +1,52 @@
-## Build your model
+## 构建您的模型
 
-Now that you have an idea, it's time to build your model. Below are a few tips that might help you to produce the model you want.
+现在您已经有了想法，是时候构建您的模型了。 下面有一些可能有助于您制作所需模型的技巧。
 
 ## --- collapse ---
 
-## title: Using a craft or utility knife
+## 标题：使用工艺刀或美工刀
 
-Craft and utility knives are very useful when making models, but you must be very careful when using them, as they are extremely sharp and can easily cause an injury. If you are using a craft or utility knife, make sure you have a responsible adult with you, or ask them to do the cutting for you if you prefer. It's also a good idea to use a cutting mat to protect the surface you are working on. If you don't have a cutting board, a kitchen chopping board is a great alternative.
+工艺刀和多用途刀在制作模型时非常有用，但您在使用时必须非常小心，因为它们非常锋利，很容易造成伤害。 如果您使用工艺刀或多用途刀，请确保有一位成年监护人陪同您，或者如果您愿意的话，请他们为您切割。 使用切割垫来保护您工作的桌面也是一个好主意。 如果您没有切割板，厨房砧板是一个很好的替代品。
 
-![A box cutting knife.](https://upload.wikimedia.org/wikipedia/commons/c/cf/Box-cutter.jpg)
+![一把开箱刀。](https://upload.wikimedia.org/wikipedia/commons/c/cf/Box-cutter.jpg)
 
 \--- /collapse ---
 
 ## --- collapse ---
 
-## title: Joining together jumper wires
+## 标题：连接跳线
 
-You might need extra-long wires to attach your LED to your Raspberry Pi pins. You can do this by 'daisy chaining' wires together. For instance, to make an extra-long Socket-Socket wire, you can attach an Socket-Pin wire to a Socket-Socket wire.
+你可能需要超长电线才能将你的 LED 连接到你的树莓派引脚。 您可以通过“串联”电线来实现这一点 例如，要制作超长的插座-插座线，您可以将插座-针脚线连接到插座-插座线。
 
-![An Socket-Pin wire attached to a Socket-Socket wire.](images/daisy-chain.jpg)
+![一根插座-针脚线连接到一根插座-插座线。](images/daisy-chain.jpg)
 
-The problem with this method is that often the wires will become detached from each other. You can use a small piece of tape to secure the connection.
+这种方法的问题是电线经常会彼此脱落。 您可以使用一小块胶带来固定连接。
 
-![An Socket-Pin wire taped to a Socket-Socket wire.](images/tape-daisy-chain.jpg)
-
-\--- /collapse ---
-
-## --- collapse ---
-
-## title: Short circuits
-
-As the legs of the LEDs are often exposed, it is easy for to create a **short circuit** if the exposed legs touch each other. This will stop your LED from working. A little bit of tape wrapped around each LED leg will prevent this.
-
-![An LED attached to jumper wires with tape insulating each LED leg.](images/insulated-led.jpg)
-
-This will also help to keep the LED attached to its jumper wires.
+![一根插座-针脚线连接到一根插座-插座线。](images/tape-daisy-chain.jpg)
 
 \--- /collapse ---
 
 ## --- collapse ---
 
-## title: Multiple LEDs
+## 标题：短路
 
-You might have only used a single LED in your projects before, but you can use lots of LEDs if you want to. Each LED will need its long leg attached to a numbered pin and the short leg attached to a ground pin. You can see the location of all the numbered pins and ground pins in the diagram below.
+由于 LED 的引脚经常暴露在外，如果暴露的引脚互相接触，很容易形成**短路**。 这将导致你的 LED 停止工作。 在每个 LED 灯脚上缠上一点胶带即可防止这种情况发生。
 
-![Raspberry Pi pinout.](https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png)
+![将 LED 连接至跳线，并用绝缘胶带缠着每个 LED 脚。](images/insulated-led.jpg)
 
-To control the LEDs, you just change the pin number in your Scratch program so it corresponds to the pin the LED is attached to.
+这也有助于将 LED 保持与其跳线的连接。
+
+\--- /collapse ---
+
+## --- collapse ---
+
+## 标题：多个 LED
+
+您之前可能只在项目中使用过单个 LED，但如果您愿意，您可以使用多个 LED。 每个 LED 都需要将其长脚连接到带编号的引脚，将短脚连接到接地引脚。 您可以在下图中看到所有带编号引脚和接地引脚的位置。
+
+![树莓派引脚。](https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png)
+
+要控制 LED，只需更改 Scratch 程序中的引脚号，使其与 LED 所连接的引脚相对应。
 
 ```blocks3
 turn LED (21 v) [on v] ::extension
