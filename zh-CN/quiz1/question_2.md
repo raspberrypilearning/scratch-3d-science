@@ -2,9 +2,9 @@
 
 ---
 
-## legend: Question 2 of 3
+## 图例：问题2/3
 
-Which of the following blocks would make an LED blink in a random pattern.
+以下哪块会让 LED 随机模式闪烁。
 
 \--- choices ---
 
@@ -19,7 +19,7 @@ wait (0.5) seconds
 
 \--- feedback ---
 
-No, this script will make your LED blink regularly - every 0.5 seconds.
+不，该脚本会让你的 LED 定期闪烁 - 每 0.5 秒一次。
 
 \--- /feedback ---
 
@@ -34,7 +34,7 @@ wait (pick random (0.1) to (0.5)) seconds
 
 \--- feedback ---
 
-Yes, this script will make your LED blink in a random pattern.
+是的，这个脚本会让你的 LED 随机闪烁。
 
 \--- /feedback ---
 
@@ -48,7 +48,7 @@ wait (pick random (0.1) to (0.5)) seconds
 
 \--- feedback ---
 
-No, this script will only toggle the LED once, rather than in a a pattern
+不，这个脚本只会切换 LED 一次，而不是按照某种模式。
 
 \--- /feedback ---
 
@@ -63,7 +63,7 @@ wait (1) seconds
 
 \--- feedback ---
 
-No. This would make a random LEDs blink for one second
+不对. 这将使 LED 随机闪烁一秒
 
 \--- /feedback ---
 
