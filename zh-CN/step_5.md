@@ -1,14 +1,14 @@
-## Control your LEDs
+## 控制您的 LED
 
-You should now have your model built and your LEDs wired up to your Raspberry Pi. Make sure you remember which numbered pins you used, because now it is time to add some code to control your LEDs.
+现在您应该已经构建了模型并将 LED 连接到了 Raspberry Pi。 确保您记住使用了哪些编号的引脚，因为现在是时候添加一些代码来控制您的 LED 了。
 
-Have a look at the options below for some different ideas on how the LEDs can be turned on and off.
+请查看以下选项，了解有关如何打开和关闭 LED 的一些不同创意。
 
 ## --- collapse ---
 
-## title: Blink a regular pattern
+## 标题：常规闪烁模式
 
-The following blocks will create a regular blinking pattern for an LED. By changing the `wait`{:class='block3control'} time, you can make the LED blink faster or slower.
+以下代码块将为 LED 创建规则的闪烁模式。 通过改变`wait`{:class='block3control'}时间，您可以使LED闪烁得更快或更慢。
 
 ```blocks3
 when flag clicked
@@ -21,9 +21,9 @@ wait (1) seconds
 
 ## --- collapse ---
 
-## title: Random blinking
+## 标题：随机闪烁
 
-By using the `pick random`{:class='block3operators'} block, the blinking of the LED appears to be completely random. Changing the values used in the `pick random`{:class='block3operators'} block will change how quickly the LED blinks.
+通过使用“随机选择”{：class='block3operators'} 块，LED 的闪烁看起来是完全随机的。 改变“随机选择”{:class='block3operators'} 块中使用的值将会改变 LED 闪烁的速度。
 
 ```blocks3
 when flag clicked
@@ -36,9 +36,9 @@ wait (pick random (0.1) to (0.5)) seconds
 
 ## --- collapse ---
 
-## title: Click a sprite to control an LED
+## 标题：单击精灵来控制 LED
 
-By using the `when this sprite clicked`{:class='block3events'} block, the LED can be turned on for a few seconds.
+使用 "当这个精灵单击"{:class='block3events'} 块时，LED 可以开启几秒钟。
 
 ```blocks3
 when this sprite clicked
@@ -51,9 +51,9 @@ turn LED (21 v) [off v] ::extension
 
 ## --- collapse ---
 
-## title: Press a key to control an LED
+## 标题：点击按键来控制 LED
 
-By using the `when key pressed`{:class='block3events'} block, an LED can be turned on and off by using the keyboard attached to your Raspberry Pi.
+通过使用“按下按键时”{:class='block3events'} 块，可以使用连接到树莓派的键盘来打开和关闭 LED。
 
 ```blocks3
 when [up arrow v] key pressed
@@ -67,9 +67,9 @@ turn LED (21 v) [off v] ::extension
 
 ## --- collapse ---
 
-## title: Using the Sensing menu to control an LED
+## 标题：使用感应菜单控制 LED
 
-The `sensing`{:class='block3sensing'} menu has blocks that can detect events that happen in Scratch and you can use these to trigger your LEDs. Here's an example using the mouse pointer. When a sprite is touched by the mouse pointer, the LED will come on, and then turn off when the pointer moves away.
+`sensing`{:class='block3sensing'} 菜单具有可以检测 Scratch 中发生的事件的块，您可以使用这些块来触发 LED。 这是使用鼠标指针的示例。 当鼠标指针触碰精灵时，LED 会亮起，而当指针移开时，LED 会熄灭。
 
 ```blocks3
 when flag clicked
