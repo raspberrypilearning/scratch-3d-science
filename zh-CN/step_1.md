@@ -1,39 +1,39 @@
-## You will make
+## 您将创建
 
-Produce a scientific or natural 3D installation. You will create your own 3D crafted model, and add LEDs and maybe some sound, to craft your very own digital demonstration.
+制作一个科学或自然的 3D 装置。 您将创建自己的 3D 手工模型，并添加 LED 和声音，以制作您自己的数字演示。
 
-You will:
+您将要：
 
-- Connect multiple LEDs to a Raspberry Pi
-- Use multiple pins to control LEDs using Scratch
-- Control LEDs using random patterns or inputs
+- 将多个LED连接到树莓派。
+- 使用 Scratch 并通过多个引脚控制 LED
+- 使用随机模式或输入控制 LED
 
-In order to complete this project you will need:
+为了完成这个项目你需要：
 
-### Hardware
+### 硬件
 
-- A Raspberry Pi computer
-- Jumper wires
-- LEDs
-- Crafting materials
+- 一台树莓派电脑
+- 跳线
+- 发光二极管LED
+- 制造材料
 
-### Software
+### 软件
 
-- Scratch 3 Desktop - **This project can not be completed using the online Scratch 3 editor**, and must be completed using a Raspberry Pi with the desktop version installed.
+- Scratch 3 桌面版 - **此项目无法使用在线 Scratch 3 编辑器完成**，必须使用安装了桌面版的树莓派上完成。
 
 \--- no-print ---
 
-![Animation of four potential projects, showing a constellation, a thunder cloud, an anglerfish, and an illuminated globe.](images/pc_showcase.gif)
+![四个潜在项目项目的动画，展示了一个星座、一片雷雨云、一条安康鱼和一个发光的地球仪。](images/pc_showcase.gif)
 
-Anglerfish by Jess Smith, in the [Sea Creatures Collection](https://thenounproject.com/spess.22/collection/sea-creatures){:target="_blank"}.
+安康鱼，作者 Jess Smith，出自 [海洋生物系列](https://thenounproject.com/spess.22/collection/sea-creatures){:target="_blank"}。
 
 \--- /no-print ---
 
 \--- print-only ---
 
-![Four potential projects, showing a constellation, a thunder cloud, an anglerfish, and an illuminated globe.](images/showcase.png)
-Anglerfish by Jess Smith, in the [Sea Creatures Collection](https://thenounproject.com/spess.22/collection/sea-creatures){:target="_blank"}.
+![四个潜在项目，分别展示了一个星座、一片雷雨云、一条安康鱼和一个发光的地球仪。](images/showcase.png)
+Jess Smith 创作的琵琶鱼，收录于 [海洋生物系列](https://thenounproject.com/spess.22/collection/sea-creatures){:target="_blank"}。
 
 \--- /print-only ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+如果您需要打印这个项目，请使用[适合打印的版本](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}。
