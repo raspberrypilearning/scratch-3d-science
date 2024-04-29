@@ -1,33 +1,33 @@
 ---
-title: 3D LED science display with Scratch
+title: 使用 Scratch 的3D LED 科学显示
 hero_image: images/banner.png
-description: Make a 3D LED science display with Scratch on the Raspberry Pi
-meta_title: Raspberry Pi Projects | Scratch | 3D LED
-meta_description: The fourth Raspberry Pi project in the Physical computing with Scratch path. Use your new skills to make a 3D LED science display.
+description: 在树莓派上用Scratch进行3D LED科学显示
+meta_title: 树莓派项目 | Scratch | 3D LED
+meta_description: 第四个树莓派中使用 Scratch 进行物理计算项目。使用您的新技能制作 3D LED 科学显示。
 listed: true
 copyedit: true
 last_tested: '2021-03-03'
 steps:
   - 
-    title: You will make
+    title: 您将创建
   - 
-    title: Get inspiration
+    title: 获取灵感
   - 
-    title: Choose you model
+    title: 选择您的模型
     completion:
       - engaged
   - 
-    title: Build your model
+    title: 构建您的模型
   - 
-    title: Control your LEDs
+    title: 控制您的 LED
   - 
-    title: Add graphics and sound
+    title: 添加图形和声音
     completion:
       - internal
   - 
-    title: Share your project
+    title: 分享您的项目
   - 
-    title: Quick quiz
+    title: 快速测验
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -36,6 +36,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: 升级您的项目
   - 
-    title: What next?
+    title: 接下来呢？
