@@ -1,40 +1,40 @@
-## Choose your model
+## 选择您的模型
 
-Now it’s time to work on your own project. You may have lots of ideas already, or you may need to take a few minutes to decide on a theme.
+现在是时候开始你自己的项目了。 您可能已经有很多想法，或者您可能需要花几分钟来决定一个主题。
 
 \--- task ---
 
-Think about the model you would like to make. You could copy or adapt one of the examples in the video in the previous step, or you could come up with something completely different.
+考虑一下您想要制作的模型。 您可以复制或修改上一步视频中的一个示例，也可以想出一些完全不同的东西。
 
-For example:
+例如：
 
-1. You could use cotton wool and a pair of blue LEDs to make your own 3D thunder cloud
-2. You could use a ping-pong ball and a red LED to make a 3D model of Mars
-3. You could use a yellow LED and create your own model of a firefly
+1. 你可以用棉绒和一对蓝色 LED 来制作自己的 3D 雷云
+2. 你可以用乒乓球和红色 LED 制作火星的 3D 模型
+3. 你可以使用黄色 LED 来创建自己的萤火虫模型
 
 \--- /task ---
 
-There are many questions you need to ask yourself before you start creating your model. Have a think about the questions below.
+在开始创建模型之前，您需要问自己许多问题。 请思考一下以下的问题。
 
 \--- task ---
 
-Once you have chosen what you want to make a model of, consider what craft materials will you need, and are they readily available to you?
+一旦您选择了要制作的模型，请考虑您需要哪些工艺材料，以及这些材料是否可以随时获得？
 
-![Various craft materials arranged on a cutting sheet.](images/craft.jpg)
-
-\--- /task ---
-
-\--- task ---
-
-How many LEDs will you need for your model? What colours will they be? Have you got enough jumper wires for what you are planning to make?
-
-![A selection of LEDs of various sizes and colours along with a jumble of jumper wires.](images/led-jumper.jpg)
+![各种工艺材料排列在切割板上。](images/craft.jpg)
 
 \--- /task ---
 
 \--- task ---
 
-Once you have built your model, how will the LED or LEDs be controlled? Do you want them to light up randomly, in a regular pattern, be continuously lit, or will they be controlled using mouse or keyboard events?
+您的模型需要多少个 LED？ 它们会是什么颜色？ 对于您计划制作的东西，您是否有足够的跳线？
+
+![各种尺寸和颜色的 LED 以及一堆乱七八糟的跳线。](images/led-jumper.jpg)
+
+\--- /task ---
+
+\--- task ---
+
+一旦建立了模型，如何控制 LED 或 LED 呢？ 您希望它们随机亮起、以规律的模式亮起、持续亮起，还是使用鼠标或键盘事件来控制它们？
 
 ```blocks3
 when flag clicked
@@ -46,8 +46,8 @@ toggle LED (21 v) ::extension
 
 \--- task ---
 
-Do you want to add sound effects to your model? Will there be graphics on the screen in addition to your model? Do you want people to be able to interact with the screen?
+您想为您的模型添加音效吗？ 除了您的模型之外，屏幕上还会有图形吗？ 您希望人们能够与屏幕互动吗？
 
-![The Scratch Stage with clouds, trees, and ground shown.](images/cloudy_sky.png)
+![Scratch 舞台上显示了云、树和地面。](images/cloudy_sky.png)
 
 \--- /task ---
