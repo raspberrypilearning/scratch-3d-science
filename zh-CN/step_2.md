@@ -1,19 +1,19 @@
-## Get inspiration
+## 获取灵感
 
-You are going to create a science and nature model using some craft materials, some LEDs, a Raspberry Pi, and Scratch.
+您将使用一些工艺材料、一些 LED、树莓派和 Scratch 创建一个科学和自然模型。
 
-You can get ideas for your own project by having a look at some of our example projects.
+您可以通过查看我们的一些示例项目来获取有关您自己的项目的想法。
 
 \--- task ---
 
-Have a look at the video of the following four projects, so you can see the types of creation you can make.
+观看以下四个项目的视频，您就能了解自己可以进行哪些类型的创作。
 
-There is a blinking constellation of stars, a thunder cloud, an interactive anglerfish, and an illuminated globe.
+其中有闪烁的星座、雷雨云、互动的安康鱼和发光的地球仪。
 
 <video width="600" controls>
 <source src="images/pc_showcase.mp4" type="video/mp4">
 
-Your browser does not support mp4 video.
+您的浏览器不支持MP4的视频
 </video> 
 
 \--- /task ---
