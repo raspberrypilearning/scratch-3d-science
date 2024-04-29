@@ -1,0 +1,31 @@
+---
+title: 使用 Scratch 的3D LED 科学显示
+hero_image: images/banner.png
+description: 在树莓派上用Scratch进行3D LED科学显示
+meta_title: 树莓派项目 | Scratch | 3D LED
+meta_description: 第四个树莓派中使用 Scratch 进行物理计算项目。使用您的新技能制作 3D LED 科学显示。
+listed: true
+copyedit: true
+last_tested: '2021-03-03'
+steps:
+  - title: 您将创建
+  - title: 获取灵感
+  - title: 选择您的模型
+    completion:
+      - engaged
+  - title: 构建您的模型
+  - title: 控制您的 LED
+  - title: 添加图形和声音
+    completion:
+      - internal
+  - title: 分享您的项目
+  - title: 快速测验
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: 升级您的项目
+  - title: 接下来呢？
