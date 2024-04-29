@@ -1,51 +1,51 @@
-## Quick quiz
+## 快速测验
 
-Answer the three questions. There are hints to guide you to the correct answer.
+回答这三个问题。 提示可以引导你找到正确的答案。
 
-When you have answered each question, click on **Check my answer**.
+当你回答了每个问题时，点击**检查我的答案**。
 
-Have fun!
+玩得开心！
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## 图例：问题1/3
 
-Look at the following circuit used to test if an LED is working. The LED does not light up. What is the most likely reason the LED is not working
-![an LED and resistor connected to a Raspberry Pi. The long leg of the LED is connected to the resistor, which is connected to a ground pin. The short leg of the LED is connected to a 3V3 pin](images/led-wiring.png)
+查看以下测试电路看看LED是否工作。 LED 不亮。 LED 不工作最可能的原因是什么
+![连接到 树莓派 的 LED 和电阻器。 LED 的长引脚连接到电阻器，该电阻器连接到接地引脚。 LED 的短脚连接到 3V3 引脚](images/led-wiring.png)
 
 \--- choices ---
 
-- ( ) 1: The wrong colour wires have been used to connect the LED to the Raspberry Pi
+- ( ) 1: 使用了错误的颜色线路将LED连接到树莓派。
 
 \--- feedback ---
 
-No. Wires all work the same way, no matter what their colour. It's just helpful to use certain colours for certain jobs, to make it easier to debug your circuits.
+不对. 无论其的颜色如何，线路都能正常工作。 只有在某些作业中使用特定颜色，这让您更容易调试您的线路。
 
 \--- /feedback ---
 
-- (x) 2: The LED has been connected the wrong way around.
+- (x) 2：LED 连接错误。
 
 \--- feedback ---
 
-Excellent. The long leg of the LED should connect to a 3V3 pin and the short leg to a ground pin
+太棒了！ LED 的长脚应连接到 3V3 引脚，短脚应连接到接地引脚
 
 \--- /feedback ---
 
-- ( ) 3: The resistor should be the other side of the LED
+- () 3：电阻应该接在LED的另一侧
 
 \--- feedback ---
 
-No. Resistors will protect an LED whether they are connected to the short leg or the long leg.
+不对. 无论电阻连接到短脚还是长脚，它都会保护 LED。
 
 \--- /feedback ---
 
-- ( ) 4: Pin 21 should have been used
+- () 4：应该使用 21 号引脚
 
 \--- feedback ---
 
-No. Pin 21 is a programable pin, which is often used to control an LED. You use a 3V3 pin to test whether an LED is working.
+不对. 引脚 21 是可编程引脚，通常被用于控制 LED。 您使用 3V3 引脚来测试 LED 是否工作。
 
 \--- /feedback ---
 
