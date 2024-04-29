@@ -1,11 +1,11 @@
-## Share your project
+## 分享您的项目
 
-Because you have created a physical project, the best way to share your work is to record a video of your project in action. You could use a mobile phone to record your project working, and also show the code on your Raspberry Pi's screen.
+因为您已经创建了一个实体项目，所以分享您的工作成果的最佳方式就是录制项目运行的视频。 您可以使用手机记录您的项目工作过程，并在 树莓派的屏幕上显示代码。
 
-Once you have created your video, you can share it on video hosting sites. The most popular is [YouTube](www.youtube.com), although if you are under 13 you will need to use the account of a responsible adult, with their permission.
+制作视频后，您可以在视频托管网站上分享它。 最受欢迎的是 [YouTube](www.youtube.com)，但如果您未满 13 岁，你可以在获得成年监护人许可后使用其帐户。
 
-Here's an example of one of the projects shown earlier, shared on YouTube.
+这是之前在 YouTube 上分享的一个项目的示例。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3U7lmCLTUhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Why not invite your friends to create a project? Let them know how you had fun.
+为什么不邀请你的朋友来创建一个项目呢？ 让他们知道你玩得多么开心。
