@@ -10,7 +10,7 @@ last_tested: '2021-03-03'
 steps:
   - title: You will make
   - title: Get inspiration
-  - title: Choose you model
+  - title: Choose your model
     completion:
       - engaged
   - title: Build your model
