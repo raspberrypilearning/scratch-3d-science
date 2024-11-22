@@ -1,60 +1,88 @@
-## Build your model
+## Control your LEDs
 
-Now that you have an idea, it's time to build your model. Below are a few tips that might help you to produce the model you want.
+You should now have your model built and your LEDs wired up to your Raspberry Pi. Make sure you remember which numbered pins you used, because now it is time to add some code to control your LEDs.
 
---- collapse ---
----
-title: Using a craft or utility knife
----
-
-Craft and utility knives are very useful when making models, but you must be very careful when using them, as they are extremely sharp and can easily cause an injury. If you are using a craft or utility knife, make sure you have a responsible adult with you, or ask them to do the cutting for you if you prefer. It's also a good idea to use a cutting mat to protect the surface you are working on. If you don't have a cutting board, a kitchen chopping board is a great alternative.
-
-![A box cutting knife.](https://upload.wikimedia.org/wikipedia/commons/c/cf/Box-cutter.jpg)
-
---- /collapse ---
+Have a look at the options below for some different ideas on how the LEDs can be turned on and off.
 
 --- collapse ---
 ---
-title: Joining together jumper wires
+title: Blink a regular pattern
 ---
 
-You might need extra-long wires to attach your LED to your Raspberry Pi pins. You can do this by 'daisy chaining' wires together. For instance, to make an extra-long Socket-Socket wire, you can attach an Socket-Pin wire to a Socket-Socket wire.
-
-![An Socket-Pin wire attached to a Socket-Socket wire.](images/daisy-chain.jpg)
-
-The problem with this method is that often the wires will become detached from each other. You can use a small piece of tape to secure the connection.
-
-![An Socket-Pin wire taped to a Socket-Socket wire.](images/tape-daisy-chain.jpg)
-
---- /collapse ---
-
---- collapse ---
----
-title: Short circuits
----
-
-As the legs of the LEDs are often exposed, it is easy for to create a **short circuit** if the exposed legs touch each other. This will stop your LED from working. A little bit of tape wrapped around each LED leg will prevent this.
-
-![An LED attached to jumper wires with tape insulating each LED leg.](images/insulated-led.jpg)
-
-This will also help to keep the LED attached to its jumper wires.
-
---- /collapse ---
-
---- collapse ---
----
-title: Multiple LEDs
----
-
-You might have only used a single LED in your projects before, but you can use lots of LEDs if you want to. Each LED will need its long leg attached to a numbered pin and the short leg attached to a ground pin. You can see the location of all the numbered pins and ground pins in the diagram below.
-
-![Raspberry Pi pinout.](https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png)
-
-To control the LEDs, you just change the pin number in your Scratch program so it corresponds to the pin the LED is attached to.
+The following blocks will create a regular blinking pattern for an LED. By changing the `wait`{:class='block3control'} time, you can make the LED blink faster or slower.
 
 ```blocks3
+when flag clicked
+forever
+toggle LED (21 v) ::extension
+wait (1) seconds
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Random blinking
+---
+
+By using the `pick random`{:class='block3operators'} block, the blinking of the LED appears to be completely random. Changing the values used in the `pick random`{:class='block3operators'} block will change how quickly the LED blinks.
+
+```blocks3
+when flag clicked
+forever
+toggle LED (21 v) ::extension
+wait (pick random (0.1) to (0.5)) seconds
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Click a sprite to control an LED
+---
+
+By using the `when this sprite clicked`{:class='block3events'} block, the LED can be turned on for a few seconds.
+
+```blocks3
+when this sprite clicked
 turn LED (21 v) [on v] ::extension
-turn LED (26 v) [off v] ::extension
+wait (2) seconds
+turn LED (21 v) [off v] ::extension
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Press a key to control an LED
+---
+
+By using the `when key pressed`{:class='block3events'} block, an LED can be turned on and off by using the keyboard attached to your Raspberry Pi.
+
+```blocks3
+when [up arrow v] key pressed
+turn LED (21 v) [on v] ::extension
+
+when [down arrow v] key pressed
+turn LED (21 v) [off v] ::extension
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Using the Sensing menu to control an LED
+---
+
+The `sensing`{:class='block3sensing'} menu has blocks that can detect events that happen in Scratch and you can use these to trigger your LEDs. Here's an example using the mouse pointer. When a sprite is touched by the mouse pointer, the LED will come on, and then turn off when the pointer moves away.
+
+```blocks3
+when flag clicked
+forever
+if <touching (mouse-pointer v) ?> then
+turn LED (21 v) [on v] ::extension
+else
+turn LED (21 v) [off v] ::extension
 ```
 
 --- /collapse ---

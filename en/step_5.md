@@ -1,88 +1,48 @@
-## Control your LEDs
+## Add graphics and sound
 
-You should now have your model built and your LEDs wired up to your Raspberry Pi. Make sure you remember which numbered pins you used, because now it is time to add some code to control your LEDs.
-
-Have a look at the options below for some different ideas on how the LEDs can be turned on and off.
+This step is optional, but you might like to add some graphics and sound to your project. This might be so that people who are using your model are able to control the LEDs, or it might simply be to add some extra effects to your project.
 
 --- collapse ---
 ---
-title: Blink a regular pattern
+title: Simulate your project on screen
 ---
 
-The following blocks will create a regular blinking pattern for an LED. By changing the `wait`{:class='block3control'} time, you can make the LED blink faster or slower.
+If you have used an image from Scratch itself as part of your project, or a digital image of your own, you can import it into your Scratch project. Click on the **Choose a Sprite** icon and select **Upload Sprite**.
+
+![Menu for uploading a sprite in Scratch.](images/upload_sprite.png)
+
+You can then use the image to copy what your actual model does. Here's the anglerfish example, where clicking on the sprites on the screen illuminates the LEDs and the sprites change their brightness.
+
+![Animation of anglerfish with two sprites being illuminated when clicked on.](images/angler_fish.gif)
+--- /collapse ---
+
+--- collapse ---
+---
+title: Add a photograph of your project
+---
+
+You could take photos of your project in action, and then import them as backdrops into your Scratch project, so that the image on the screen shows what is happening with the model. Here's an example of the thunder cloud project, using four photographs as different backdrops. The backdrop changes each time the LED comes on.
+
+![Animation showing the cotton wool cloud with illuminated LEDs as a changing backdrop in Scratch.](images/thunder_cloud.gif)
+
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Add some sound effects to your project
+---
+
+You could add sound to your Scratch project, so that when the LEDs are turned on or off, Scratch plays a sound effect. For instance, these code blocks will start and stop a sound, in time with an LED turning on and off.
 
 ```blocks3
 when flag clicked
-forever
-toggle LED (21 v) ::extension
-wait (1) seconds
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Random blinking
----
-
-By using the `pick random`{:class='block3operators'} block, the blinking of the LED appears to be completely random. Changing the values used in the `pick random`{:class='block3operators'} block will change how quickly the LED blinks.
-
-```blocks3
-when flag clicked
-forever
-toggle LED (21 v) ::extension
-wait (pick random (0.1) to (0.5)) seconds
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Click a sprite to control an LED
----
-
-By using the `when this sprite clicked`{:class='block3events'} block, the LED can be turned on for a few seconds.
-
-```blocks3
-when this sprite clicked
+wait (pick random (1) to (3))
 turn LED (21 v) [on v] ::extension
-wait (2) seconds
+start sound (Cymbal Echo v)
+wait (pick random (1) to (3))
 turn LED (21 v) [off v] ::extension
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Press a key to control an LED
----
-
-By using the `when key pressed`{:class='block3events'} block, an LED can be turned on and off by using the keyboard attached to your Raspberry Pi.
-
-```blocks3
-when [up arrow v] key pressed
-turn LED (21 v) [on v] ::extension
-
-when [down arrow v] key pressed
-turn LED (21 v) [off v] ::extension
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Using the Sensing menu to control an LED
----
-
-The `sensing`{:class='block3sensing'} menu has blocks that can detect events that happen in Scratch and you can use these to trigger your LEDs. Here's an example using the mouse pointer. When a sprite is touched by the mouse pointer, the LED will come on, and then turn off when the pointer moves away.
-
-```blocks3
-when flag clicked
-forever
-if <touching (mouse-pointer v) ?> then
-turn LED (21 v) [on v] ::extension
-else
-turn LED (21 v) [off v] ::extension
+stop all sounds
 ```
 
 --- /collapse ---

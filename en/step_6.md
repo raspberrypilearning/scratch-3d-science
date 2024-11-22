@@ -1,48 +1,11 @@
-## Add graphics and sound
+## Share your project
 
-This step is optional, but you might like to add some graphics and sound to your project. This might be so that people who are using your model are able to control the LEDs, or it might simply be to add some extra effects to your project.
+Because you have created a physical project, the best way to share your work is to record a video of your project in action. You could use a mobile phone to record your project working, and also show the code on your Raspberry Pi's screen.
 
---- collapse ---
----
-title: Simulate your project on screen
----
+Once you have created your video, you can share it on video hosting sites. The most popular is [YouTube](www.youtube.com), although if you are under 13 you will need to use the account of a responsible adult, with their permission.
 
-If you have used an image from Scratch itself as part of your project, or a digital image of your own, you can import it into your Scratch project. Click on the **Choose a Sprite** icon and select **Upload Sprite**.
+Here's an example of one of the projects shown earlier, shared on YouTube.
 
-![Menu for uploading a sprite in Scratch.](images/upload_sprite.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3U7lmCLTUhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can then use the image to copy what your actual model does. Here's the anglerfish example, where clicking on the sprites on the screen illuminates the LEDs and the sprites change their brightness.
-
-![Animation of anglerfish with two sprites being illuminated when clicked on.](images/angler_fish.gif)
---- /collapse ---
-
---- collapse ---
----
-title: Add a photograph of your project
----
-
-You could take photos of your project in action, and then import them as backdrops into your Scratch project, so that the image on the screen shows what is happening with the model. Here's an example of the thunder cloud project, using four photographs as different backdrops. The backdrop changes each time the LED comes on.
-
-![Animation showing the cotton wool cloud with illuminated LEDs as a changing backdrop in Scratch.](images/thunder_cloud.gif)
-
-
---- /collapse ---
-
---- collapse ---
----
-title: Add some sound effects to your project
----
-
-You could add sound to your Scratch project, so that when the LEDs are turned on or off, Scratch plays a sound effect. For instance, these code blocks will start and stop a sound, in time with an LED turning on and off.
-
-```blocks3
-when flag clicked
-wait (pick random (1) to (3))
-turn LED (21 v) [on v] ::extension
-start sound (Cymbal Echo v)
-wait (pick random (1) to (3))
-turn LED (21 v) [off v] ::extension
-stop all sounds
-```
-
---- /collapse ---
+Why not invite your friends to create a project? Let them know how you had fun.
