@@ -1,6 +1,6 @@
 ## Build your model
 
-Now that you have an idea, it's time to build your model. Below are a few tips that might help you to produce the model you want.
+Now that you have a plan, it's time to build your thunder cloud. Below are a few tips that might help you to produce the model you want.
 
 --- collapse ---
 ---
@@ -58,3 +58,23 @@ turn LED (26 v) [off v] ::extension
 ```
 
 --- /collapse ---
+
+--- task ---
+
+Connect your LEDs to your Raspberry Pi and make sure you remember which GPIO pins you used.
+
+--- /task ---
+
+--- task ---
+
+Take your cotton wool roll and lay it out flat on the table. 
+
+--- /task ---
+
+--- task ---
+
+Place your connected LEDs on top the cotton wool and wrap them up, making sure the cables all come out of one end. 
+
+You should place them slightly apart, and could even wrap up one or two, then add more in extra layers to spread them around inside the cloud.
+
+--- /task ---

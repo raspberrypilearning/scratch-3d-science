@@ -1,31 +1,22 @@
-## You will make
+## What you will make
 
-Produce a 3D installation! You will create your own 3D crafted model, and add LEDs and maybe some sound, to craft your very own digital demonstration.
+In this project, you will create a 3D cotton wool thunder cloud. Using a bundle of cotton wool and blue LEDs, you will craft a model that simulates a stormy cloud with intermittent lightning flashes.
 
 ## You will need:
 ### Hardware
 
-+ A Raspberry Pi computer
-+ Jumper wires
-+ LEDs
-+ Crafting materials
++ A Raspberry Pi computer  
++ Jumper wires  
++ Blue LEDs  
++ Cotton wool roll 
++ Other basic crafting materials
 
 ### Software
 
-+ Scratch 3 Desktop - **This project can not be completed using the online Scratch 3 editor**, and must be completed using a Raspberry Pi with the desktop version installed.
++ Scratch 3 Desktop - **This project cannot be completed using the online Scratch 3 editor**; you must use a Raspberry Pi with the desktop version installed.
 
---- no-print ---
 
-![Animation of four potential projects, showing a constellation, a thunder cloud, an anglerfish, and an illuminated globe.](images/pc_showcase.gif)
+Here's an example:
 
-Anglerfish by Jess Smith, in the [Sea Creatures Collection](https://thenounproject.com/spess.22/collection/sea-creatures){:target="_blank"}.
-
---- /no-print ---
-
---- print-only ---
-
-![Four potential projects, showing a constellation, a thunder cloud, an anglerfish, and an illuminated globe.](images/showcase.png)
-Anglerfish by Jess Smith, in the [Sea Creatures Collection](https://thenounproject.com/spess.22/collection/sea-creatures){:target="_blank"}.
-
---- /print-only ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3U7lmCLTUhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -1,27 +1,11 @@
 ## Design your model
 
-Now it’s time to work on your own project. You may have lots of ideas already, or you may need to take a few minutes to decide on a theme.
-
---- task ---
-
-Think about the model you would like to make. You could copy or adapt one of the examples in the video in the previous step, or you could come up with something completely different.
-
-For example:
-1. You could use cotton wool and a pair of blue LEDs to make your own 3D thunder cloud
-2. You could use a ping-pong ball and a red LED to make a 3D model of Mars
-3. You could use a yellow LED and create your own model of a firefly
+For this project, you are designing a cotton wool thunder cloud that incorporates blue LEDs to simulate lightning. Think about how you will shape the cotton wool to form a natural, fluffy cloud and decide on the best placement for the LED(s) to mimic sudden lightning flashes.
 
 --- /task ---
 
-There are many questions you need to ask yourself before you start creating your model. Have a think about the questions below.
+There are many questions you need to ask yourself before you start creating your thunder cloud. Have a think about the questions below.
 
---- task ---
-
-Once you have chosen what you want to make a model of, consider what craft materials will you need, and are they readily available to you?
-
-![Various craft materials arranged on a cutting sheet.](images/craft.jpg)
-
---- /task ---
 
 --- task ---
 

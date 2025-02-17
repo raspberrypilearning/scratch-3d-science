@@ -8,16 +8,14 @@ listed: true
 copyedit: true
 last_tested: '2021-03-03'
 steps:
-  - title: You will make
+  - title: What you will make
   - title: Design your model
     completion:
       - engaged
   - title: Build your model
   - title: Control your LEDs
-  - title: Add graphics and sound
     completion:
       - internal
-  - title: Share your project
   - title: Quick quiz
     knowledge_quiz:
       path: quiz1
