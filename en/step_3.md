@@ -70,7 +70,7 @@ Connect your LEDs to your Raspberry Pi and make sure you remember which GPIO pin
 --- task ---
 
 Take your cotton wool roll and lay it out flat on the table. Pinch or stretch it gently to make it look fluffy.
-![A piece of white cotton padding, unfolded and spread out on a green cutting mat.](images/LEDconnnect.jpeg)
+![A piece of white cotton padding, unfolded and spread out on a green cutting mat.](images/flatcotton.jpeg)
 
 --- /task ---
 
