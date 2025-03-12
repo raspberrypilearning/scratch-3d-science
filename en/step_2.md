@@ -2,9 +2,7 @@
 
 For this project, you are designing a cotton wool thunder cloud that incorporates blue LEDs to simulate lightning. Think about how you will shape the cotton wool to form a natural, fluffy cloud and decide on the best placement for the LED(s) to mimic sudden lightning flashes.
 
---- /task ---
-
-There are many questions you need to ask yourself before you start creating your thunder cloud. Have a think about the questions below.
+There are some questions you need to ask yourself before you start creating your thunder cloud. Have a think about the questions below.
 
 
 --- task ---

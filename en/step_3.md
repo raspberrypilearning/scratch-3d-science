@@ -48,7 +48,7 @@ title: Multiple LEDs
 
 You might have only used a single LED in your projects before, but you can use lots of LEDs if you want to. Each LED will need its long leg attached to a numbered pin and the short leg attached to a ground pin. You can see the location of all the numbered pins and ground pins in the diagram below.
 
-![Raspberry Pi pinout.](https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png)
+![Raspberry Pi pinout.](https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png)
 
 To control the LEDs, you just change the pin number in your Scratch program so it corresponds to the pin the LED is attached to.
 

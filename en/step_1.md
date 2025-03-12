@@ -7,7 +7,7 @@ In this project, you will create a 3D cotton wool thunder cloud. Using a bundle 
 
 + A Raspberry Pi computer  
 + Jumper wires  
-+ Blue LEDs  
++ Some LEDs  
 + Cotton wool roll 
 + Other basic crafting materials
 
