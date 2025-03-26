@@ -50,10 +50,10 @@ You could add sound to your Scratch project, so that when the LEDs are turned on
 
 ```blocks3
 when flag clicked
-wait (pick random (1) to (3))
+wait (pick random (1) to (3)) seconds
 turn LED (21 v) [on v] ::extension
 start sound (Cymbal Echo v)
-wait (pick random (1) to (3))
+wait (pick random (1) to (3)) seconds
 turn LED (21 v) [off v] ::extension
 stop all sounds
 ```
