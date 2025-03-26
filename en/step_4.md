@@ -4,6 +4,16 @@ You should now have your cloud built and your LEDs wired up to your Raspberry Pi
 
 Have a look at the options below for some different ideas on how the LEDs can be turned on and off.
 
+--- task ---
+
+Add the Simple Electronics extension in Scratch by clicing the `Extension`{:class='block3extensions'}  menu at the bottom left and choosing it from the list that appears.
+
+![Purple icon with two horizontal sliders and a plus sign, indicating an option to add or customize extesions in scratch.](images/extension-button.png)
+
+![Illustration of two children at a table with electronic components, promoting a Raspberry Pi Simple Electronics activity.](images/gpio-extension.png)
+
+--- /task ---
+
 --- collapse ---
 ---
 title: Blink a regular pattern

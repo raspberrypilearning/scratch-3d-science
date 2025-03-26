@@ -1,13 +1,11 @@
-## What you will make
-
 In this project, you will create a 3D cotton wool thunder cloud. Using a bundle of cotton wool and blue LEDs, you will craft a model that simulates a stormy cloud with intermittent lightning flashes.
 
 ## You will need:
 ### Hardware
 
 + A Raspberry Pi computer  
-+ Jumper wires  
-+ Some LEDs  
++ Some LEDs
++ Socket-socket jumper wires (2 per LED)
 + Cotton wool roll 
 + Other basic crafting materials
 

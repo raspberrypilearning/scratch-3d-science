@@ -2,6 +2,37 @@
 
 Now that you have a plan, it's time to build your thunder cloud. Below are a few tips that might help you to produce the model you want.
 
+
+--- task ---
+
+Connect your LEDs to your Raspberry Pi and make sure you remember which GPIO pins you used. In the example, we have used pins 21 and 26.
+
+![A Raspberry Pi board with two yellow LEDs connected to it via jumper wires, placed on a green cutting mat.](images/LEDconnnect.jpeg)
+
+![Raspberry Pi pinout.](https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png)
+
+--- /task ---
+
+--- task ---
+
+Take your cotton wool roll and lay it out flat on the table. Pinch or stretch it gently to make it look fluffy.
+![A piece of white cotton padding, unfolded and spread out on a green cutting mat.](images/flatcotton.jpeg)
+
+--- /task ---
+
+--- task ---
+
+Place your connected LEDs on top the cotton wool and wrap them up, making sure the cables all come out of one end. 
+
+![A Raspberry Pi board connected to a piece of white cotton padding, with two yellow LEDs embedded in the cotton, placed on a green cutting mat.](images/wrap_bulbs.jpeg)
+
+You should place them slightly apart, and could even wrap up one or two, then add more in extra layers to spread them around inside the cloud.
+
+--- /task ---
+
+Your finished cloud should look something like this:
+![A Raspberry Pi board connected to a bundle of cotton-like material using jumper wires, placed on a green cutting mat.](images/bulbs_wrapped.jpeg)
+
 --- collapse ---
 ---
 title: Using a craft or utility knife
@@ -58,31 +89,3 @@ turn LED (26 v) [off v] ::extension
 ```
 
 --- /collapse ---
-
---- task ---
-
-Connect your LEDs to your Raspberry Pi and make sure you remember which GPIO pins you used. In the example, we have used pins 21 and 26.
-
-![A Raspberry Pi board with two yellow LEDs connected to it via jumper wires, placed on a green cutting mat.](images/LEDconnnect.jpeg)
-
---- /task ---
-
---- task ---
-
-Take your cotton wool roll and lay it out flat on the table. Pinch or stretch it gently to make it look fluffy.
-![A piece of white cotton padding, unfolded and spread out on a green cutting mat.](images/flatcotton.jpeg)
-
---- /task ---
-
---- task ---
-
-Place your connected LEDs on top the cotton wool and wrap them up, making sure the cables all come out of one end. 
-
-![A Raspberry Pi board connected to a piece of white cotton padding, with two yellow LEDs embedded in the cotton, placed on a green cutting mat.](images/wrap_bulbs.jpeg)
-
-You should place them slightly apart, and could even wrap up one or two, then add more in extra layers to spread them around inside the cloud.
-
---- /task ---
-
-Your finished cloud should look something like this:
-![A Raspberry Pi board connected to a bundle of cotton-like material using jumper wires, placed on a green cutting mat.](images/bulbs_wrapped.jpeg)
