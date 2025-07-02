@@ -1,52 +1,91 @@
-## Choose your model
+## Build your model
 
-Now it’s time to work on your own project. You may have lots of ideas already, or you may need to take a few minutes to decide on a theme.
+Now that you have a plan, it's time to build your thunder cloud. Below are a few tips that might help you to produce the model you want.
 
---- task ---
-
-Think about the model you would like to make. You could copy or adapt one of the examples in the video in the previous step, or you could come up with something completely different.
-
-For example:
-1. You could use cotton wool and a pair of blue LEDs to make your own 3D thunder cloud
-2. You could use a ping-pong ball and a red LED to make a 3D model of Mars
-3. You could use a yellow LED and create your own model of a firefly
-
---- /task ---
-
-There are many questions you need to ask yourself before you start creating your model. Have a think about the questions below.
 
 --- task ---
 
-Once you have chosen what you want to make a model of, consider what craft materials will you need, and are they readily available to you?
+Connect your LEDs to your Raspberry Pi and make sure you remember which GPIO pins you used. In the example, we have used pins 21 and 26.
 
-![Various craft materials arranged on a cutting sheet.](images/craft.jpg)
+![A Raspberry Pi board with two yellow LEDs connected to it via jumper wires, placed on a green cutting mat.](images/LEDconnnect.jpeg)
+
+![Raspberry Pi pinout.](https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png)
 
 --- /task ---
 
 --- task ---
 
-How many LEDs will you need for your model? What colours will they be? Have you got enough jumper wires for what you are planning to make?
-
-![A selection of LEDs of various sizes and colours along with a jumble of jumper wires.](images/led-jumper.jpg)
+Take your cotton wool roll and lay it out flat on the table. Pinch or stretch it gently to make it look fluffy.
+![A piece of white cotton padding, unfolded and spread out on a green cutting mat.](images/flatcotton.jpeg)
 
 --- /task ---
 
 --- task ---
 
-Once you have built your model, how will the LED or LEDs be controlled? Do you want them to light up randomly, in a regular pattern, be continuously lit, or will they be controlled using mouse or keyboard events?
+Place your connected LEDs on top the cotton wool and wrap them up, making sure the cables all come out of one end. 
+
+![A Raspberry Pi board connected to a piece of white cotton padding, with two yellow LEDs embedded in the cotton, placed on a green cutting mat.](images/wrap_bulbs.jpeg)
+
+You should place them slightly apart, and could even wrap up one or two, then add more in extra layers to spread them around inside the cloud.
+
+--- /task ---
+
+Your finished cloud should look something like this:
+![A Raspberry Pi board connected to a bundle of cotton-like material using jumper wires, placed on a green cutting mat.](images/bulbs_wrapped.jpeg)
+
+--- collapse ---
+---
+title: Using a craft or utility knife
+---
+
+Craft and utility knives are very useful when making models, but you must be very careful when using them, as they are extremely sharp and can easily cause an injury. If you are using a craft or utility knife, make sure you have a responsible adult with you, or ask them to do the cutting for you if you prefer. It's also a good idea to use a cutting mat to protect the surface you are working on. If you don't have a cutting board, a kitchen chopping board is a great alternative.
+
+![A box cutting knife.](https://upload.wikimedia.org/wikipedia/commons/c/cf/Box-cutter.jpg)
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Joining together jumper wires
+---
+
+You might need extra-long wires to attach your LED to your Raspberry Pi pins. You can do this by 'daisy chaining' wires together. For instance, to make an extra-long Socket-Socket wire, you can attach an Socket-Pin wire to a Socket-Socket wire.
+
+![An Socket-Pin wire attached to a Socket-Socket wire.](images/daisy-chain.jpg)
+
+The problem with this method is that often the wires will become detached from each other. You can use a small piece of tape to secure the connection.
+
+![An Socket-Pin wire taped to a Socket-Socket wire.](images/tape-daisy-chain.jpg)
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Short circuits
+---
+
+As the legs of the LEDs are often exposed, it is easy for to create a **short circuit** if the exposed legs touch each other. This will stop your LED from working. A little bit of tape wrapped around each LED leg will prevent this.
+
+![An LED attached to jumper wires with tape insulating each LED leg.](images/insulated-led.jpg)
+
+This will also help to keep the LED attached to its jumper wires.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Multiple LEDs
+---
+
+You might have only used a single LED in your projects before, but you can use lots of LEDs if you want to. Each LED will need its long leg attached to a numbered pin and the short leg attached to a ground pin. You can see the location of all the numbered pins and ground pins in the diagram below.
+
+![Raspberry Pi pinout.](https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png)
+
+To control the LEDs, you just change the pin number in your Scratch program so it corresponds to the pin the LED is attached to.
 
 ```blocks3
-when flag clicked
-forever
-toggle LED (21 v) ::extension
+turn LED (21 v) [on v] ::extension
+turn LED (26 v) [off v] ::extension
 ```
 
---- /task ---
-
---- task ---
-
-Do you want to add sound effects to your model? Will there be graphics on the screen in addition to your model? Do you want people to be able to interact with the screen?
-
-![The Scratch Stage with clouds, trees, and ground shown.](images/cloudy_sky.png)
-
---- /task ---
+--- /collapse ---
