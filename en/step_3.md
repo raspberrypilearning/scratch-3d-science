@@ -5,9 +5,19 @@ Now that you have a plan, it's time to build your thunder cloud. Below are a few
 
 --- task ---
 
-Connect your LEDs to your Raspberry Pi and make sure you remember which GPIO pins you used. In the example, we have used pins 21 and 26.
+Shut down your Raspberry Pi and disconnect its power before wiring your LEDs. Each LED needs its **own 330Ω resistor in series** to limit the current.
 
-![A Raspberry Pi board with two yellow LEDs connected to it via jumper wires, placed on a green cutting mat.](images/LEDconnnect.jpeg)
+Use three socket-socket jumper wires for each LED:
+
+1. Connect a GPIO pin to one leg of a 330Ω resistor.
+1. Connect the other resistor leg to the LED's **long leg (anode)**.
+1. Connect the LED's **short leg (cathode)** to a **GND** pin.
+
+Either way round is fine for the resistor. Keep the two LED legs apart and insulate each exposed connection with tape.
+
+The example uses **GPIO21 (physical pin 40)** with **GND (physical pin 39)**, and **GPIO26 (physical pin 37)** with **GND (physical pin 34)**. Use the GPIO numbers 21 and 26 in Scratch.
+
+![Two separate circuits: GPIO21 at physical pin 40 connects through a 330Ω resistor to LED 1's long leg, with its short leg connected to GND at physical pin 39. GPIO26 at physical pin 37 connects through another 330Ω resistor to LED 2's long leg, with its short leg connected to GND at physical pin 34.](images/led-series-circuits.png)
 
 ![Raspberry Pi pinout.](https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png)
 
@@ -22,16 +32,13 @@ Take your cotton wool roll and lay it out flat on the table. Pinch or stretch it
 
 --- task ---
 
-Place your connected LEDs on top the cotton wool and wrap them up, making sure the cables all come out of one end. 
-
-![A Raspberry Pi board connected to a piece of white cotton padding, with two yellow LEDs embedded in the cotton, placed on a green cutting mat.](images/wrap_bulbs.jpeg)
+With the power still disconnected, place the LEDs on top of the cotton wool and wrap them up, making sure the cables all come out of one end. Keep the resistors and the Raspberry Pi outside the cotton wool, and keep every exposed connection insulated.
 
 You should place them slightly apart, and could even wrap up one or two, then add more in extra layers to spread them around inside the cloud.
 
 --- /task ---
 
-Your finished cloud should look something like this:
-![A Raspberry Pi board connected to a bundle of cotton-like material using jumper wires, placed on a green cutting mat.](images/bulbs_wrapped.jpeg)
+Shape the cotton wool around the LEDs to make your cloud. Check that each LED still has its own resistor in series before reconnecting the Raspberry Pi power.
 
 --- collapse ---
 ---
@@ -77,7 +84,7 @@ This will also help to keep the LED attached to its jumper wires.
 title: Multiple LEDs
 ---
 
-You might have only used a single LED in your projects before, but you can use lots of LEDs if you want to. Each LED will need its long leg attached to a numbered pin and the short leg attached to a ground pin. You can see the location of all the numbered pins and ground pins in the diagram below.
+You might have only used a single LED in your projects before, but you can use lots of LEDs if you want to. Each LED needs its own 330Ω resistor between its long leg and a GPIO pin, with its short leg connected to a GND pin. Do not connect an LED directly between GPIO and GND or share one resistor between LEDs. You can see the location of all the numbered pins and ground pins in the diagram below.
 
 ![Raspberry Pi pinout.](https://www.raspberrypi.com/documentation/computers/images/GPIO-Pinout-Diagram-2.png)
 

@@ -7,7 +7,7 @@ There are some questions you need to ask yourself before you start creating your
 
 --- task ---
 
-How many LEDs will you need for your model? What colours will they be? Have you got enough jumper wires for what you are planning to make?
+How many LEDs will you need for your model? What colours will they be? Have you got one 330Ω resistor and three jumper wires for each LED you plan to use?
 
 ![A selection of LEDs of various sizes and colours along with a jumble of jumper wires.](images/led-jumper.jpg)
 

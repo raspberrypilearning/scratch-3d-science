@@ -6,7 +6,7 @@ You could:
 
 --- task ---
 
-Increase the number of LEDs on your project (remember to use the correct Pin numbers in your code!)
+Add another LED to your project, with its own 330Ω resistor in series. Disconnect the power before changing the wiring, and use the correct GPIO number in your code.
 
 --- /task ---
 
